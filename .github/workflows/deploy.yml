@@ -30,6 +30,9 @@ jobs:
                   name: deploy_dist
                   path: build
     deploy:
+        permissions:
+            contents: read
+            pages: write
         name: Deploy
         runs-on: ubuntu-latest
         needs:
