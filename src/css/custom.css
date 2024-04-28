@@ -1,0 +1,254 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: hsl(209, 100%, 55%);
+  --ifm-color-primary-dark: hsl(209, 100%, 49%);
+  --ifm-color-primary-darker: hsl(209, 100%, 46%);
+  --ifm-color-primary-darkest: hsl(209, 100%, 38%);
+  --ifm-color-primary-light: hsl(209, 100%, 56%);
+  --ifm-color-primary-lighter: hsl(209, 100%, 57%);
+  --ifm-color-primary-lightest: hsl(209, 100%, 58%);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-font-family-base: IRANSansX, sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: hsl(207, 100%, 63%);
+  --ifm-color-primary-dark: hsl(207, 100%, 56%);
+  --ifm-color-primary-darker: hsl(207, 100%, 53%);
+  --ifm-color-primary-darkest: hsl(207, 100%, 47%);
+  --ifm-color-primary-light: hsl(207, 100%, 69%);
+  --ifm-color-primary-lighter: hsl(207, 100%, 72%);
+  --ifm-color-primary-lightest: hsl(207, 100%, 81%);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* vazirmatn-100 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 100;
+  src: url("/fonts/vazirmatn-v13-arabic_latin-100.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* vazirmatn-200 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 200;
+  src: url("/fonts/vazirmatn-v13-arabic_latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* vazirmatn-300 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/vazirmatn-v13-arabic_latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* vazirmatn-regular - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/vazirmatn-v13-arabic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* vazirmatn-500 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/vazirmatn-v13-arabic_latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* vazirmatn-600 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/vazirmatn-v13-arabic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* vazirmatn-700 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/vazirmatn-v13-arabic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* vazirmatn-800 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/vazirmatn-v13-arabic_latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* vazirmatn-900 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/vazirmatn-v13-arabic_latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* iranSansX-100 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 100;
+  src: url("/fonts/IRANSansX-Thin.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* iranSansX-200 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 200;
+  src: url("/fonts/IRANSansX-UltraLight.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* iranSansX-300 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/IRANSansX-Light.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* iranSansX-regular - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/IRANSansX-Regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* iranSansX-500 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/IRANSansX-Medium.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* iranSansX-600 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/IRANSansX-DemiBold.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* iranSansX-700 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/IRANSansX-Bold.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* iranSansX-800 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/IRANSansX-ExtraBold.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* iranSansX-900 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/IRANSansX-Black.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* yekanbakh-100 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yekan Bakh FaNum";
+  font-style: normal;
+  font-weight: 100;
+  src: url("/fonts/Yekan Bakh FaNum 01 Hairline.woff") format("woff"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* yekanbakh-200 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yekan Bakh FaNum";
+  font-style: normal;
+  font-weight: 200;
+  src: url("/fonts/Yekan Bakh FaNum 02 Thin.woff") format("woff"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* yekanbakh-300 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yekan Bakh FaNum";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/Yekan Bakh FaNum 03 Light.woff") format("woff"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* yekanbakh-regular - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yekan Bakh FaNum";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Yekan Bakh FaNum 04 Regular.woff") format("woff"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* yekanbakh-500 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yekan Bakh FaNum";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/Yekan Bakh FaNum 05 Medium.woff") format("woff"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* yekanbakh-600 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yekan Bakh FaNum";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/Yekan Bakh FaNum 06 Bold.woff") format("woff"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* yekanbakh-700 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yekan Bakh FaNum";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Yekan Bakh FaNum 07 Heavy.woff") format("woff"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* yekanbakh-800 - arabic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yekan Bakh FaNum";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/Yekan Bakh FaNum 08 Fat.woff") format("woff"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.markdown p:has(img) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.markdown p img {
+  box-shadow: 0 0 7px -1px hsla(0, 0%, 0%, 0.2);
+  border-radius: 10px;
+}
