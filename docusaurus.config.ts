@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'هندبوک سرمایه‌انسانی ستاره',
   favicon: 'img/mohaymen-logo.png',
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://life-at-star.github.io/',
+  baseUrl: '/HR-Handbook',
   organizationName: 'Life-at-STAR',
   projectName: 'HR-Handbook',
 
