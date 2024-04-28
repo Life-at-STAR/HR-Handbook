@@ -37,7 +37,7 @@ const config: Config = {
             routeBasePath: 'handbook',
             sidebarPath: require.resolve('./sidebars.ts'),
             editUrl:
-            'https://github.com/Life-at-STAR/HR-Handbook',
+            'https://github.com/Life-at-STAR/HR-Handbook/tree/main/',
         },
     ],
   ],
