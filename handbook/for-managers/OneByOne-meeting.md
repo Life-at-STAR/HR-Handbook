@@ -36,3 +36,7 @@ title: جلسات یک به یک
   [فرم گزارش جلسات 1:1](https://survey.porsline.ir/s/wW348Huw)
   
 </p>
+
+![alt text](/../HR-Handbook/static/img/Soft%20Skill%20Development%20-%201By1%20-%20Slide%2016.jpg "Meeting Order")
+
+![alt text](/../HR-Handbook/static/img/Soft%20Skill%20Development%20-%201By1%20-%20Slide%2018.jpg "Meeting Titles")
