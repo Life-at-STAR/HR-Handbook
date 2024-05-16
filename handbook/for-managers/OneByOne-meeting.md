@@ -39,4 +39,4 @@ title: جلسات یک به یک
 
 ![alt text](/static/img/Soft%20Skill%20Development%20-%201By1%20-%20Slide%2016.jpg "Meeting Order")
 
-![alt text](/static/img/Soft%20Skill%20Development%20-%201By1%20-%20Slide%2016.jpg "Meeting Titles")
+![alt text](/static/img/Soft%20Skill%20Development%20-%201By1%20-%20Slide%2018.jpg "Meeting Titles")
